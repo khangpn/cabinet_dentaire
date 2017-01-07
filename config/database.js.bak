@@ -1,0 +1,22 @@
+var settings = {
+  development: {
+    database : "cabinet_dentaire",
+    username : "cabinet",
+    password : "cabinet",
+    options  : {
+      dialect : "postgresql",
+      host     : "127.0.0.1"
+    }
+  },
+  production: {
+    database : "dentaire",
+    username : "dentaire",
+    password : "dentaire",
+    options  : {
+      dialect : "postgres",
+      host     : "127.0.0.1"
+    }
+  }
+};
+
+module.exports = settings;
