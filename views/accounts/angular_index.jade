@@ -1,0 +1,13 @@
+extends ../layout
+
+block content
+  script(src='/javascripts/accounts/account.js')
+  script(src='/javascripts/accounts/account.config.js')
+  script(src='/javascripts/accounts/account-list/account-list.module.js')
+  script(src='/javascripts/accounts/account-list/account-list.component.js')
+  script(src='/javascripts/accounts/account-resource/account.module.js')
+  script(src='/javascripts/accounts/account-resource/account.service.js')
+  script(src='/javascripts/core/istrue/istrue.filter.js')
+  script(src='/javascripts/core/delete-confirm/delete-confirm.directive.js')
+
+  div(ng-view)
